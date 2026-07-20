@@ -1,8 +1,8 @@
-# nails-by-lola # 🌸 Nails by Lola
+🌸 Nails by Lola
 
 Site oficial da Nails by Lola.
 
-## Funcionalidades
+ Funcionalidades
 
 - 💅 Lista de serviços
 - 📅 Marcação online
