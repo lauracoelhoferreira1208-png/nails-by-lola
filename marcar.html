@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marcar - Nails by Lola</title>
+
+<style>
+body{
+font-family:Arial,sans-serif;
+background:#fff5fa;
+margin:0;
+padding:30px;
+}
+
+.container{
+max-width:500px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+h1{
+text-align:center;
+color:#ff4fa3;
+}
+
+label{
+display:block;
+margin-top:15px;
+font-weight:bold;
+}
+
+input,select,textarea{
+width:100%;
+padding:12px;
+margin-top:5px;
+border:1px solid #ddd;
+border-radius:10px;
+font-size:16px;
+box-sizing:border-box;
+}
+
+button{
+width:100%;
+margin-top:25px;
+padding:15px;
+background:#ff4fa3;
+color:white;
+border:none;
+border-radius:12px;
+font-size:18px;
+cursor:pointer;
+}
+
+button:hover{
+background:#e63d91;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>📅 Marcar Atendimento</h1>
+
+<form>
+
+<label>Nome</label>
+<input type="text" placeholder="O seu nome" required>
+
+<label>Telemóvel</label>
+<input type="tel" placeholder="9XXXXXXXX" required>
+
+<label>Serviço</label>
+<select required>
+<option>Manicure Simples - 5€</option>
+<option>Verniz Gel - 10€</option>
+<option>Gel (Extensão) - 20€</option>
+<option>Manutenção Gel - 15€</option>
+<option>Pedicure Simples - 5€</option>
+<option>Pedicure Verniz Gel - 10€</option>
+</select>
+
+<label>Data</label>
+<input type="date" required>
+
+<label>Hora</label>
+<input type="time" required>
+
+<label>Observações</label>
+<textarea rows="4" placeholder="Alguma informação adicional?"></textarea>
+
+<button type="submit">Confirmar Marcação</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
